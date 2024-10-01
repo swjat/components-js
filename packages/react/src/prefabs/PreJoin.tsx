@@ -415,6 +415,7 @@ export function PreJoin({
           placeholder={userLabel}
           onChange={(inputEl) => setUsername(inputEl.target.value)}
           autoComplete="off"
+          disabled={true}
         />
         <button
           className="lk-button lk-join-button"
